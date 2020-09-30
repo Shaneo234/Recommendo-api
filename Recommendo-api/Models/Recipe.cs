@@ -9,7 +9,6 @@ namespace Recommendo_api.Models
     {
         public long Id { get; set; }
         public string Name { get; set; }
-        public List<string> Ingredients { get; set; }
-        public List<string> Method { get; set; }
+        public string Description { get; set; }
     }
 }
